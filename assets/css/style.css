@@ -1,2 +1,7 @@
-function() { 
-} 
+body{
+background-image: "backgroundCrystal.png";
+}
+img {
+width: 100px;
+height: 100px;
+}

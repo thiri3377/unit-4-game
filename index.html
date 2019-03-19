@@ -1,1 +1,74 @@
-<!DOCTYPE HTML> 
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title> Crystal Game </title>
+  <!-- Added link to the jQuery Library -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- Added a link to Bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+  <!-- Added a link to our external stylesheet-->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+
+</head>
+
+  <body>
+    <div class="jumbotron">
+  <h1 class="text-center"> Crystal Game </h1>
+  <h3 class="text-center"> Guess the value of the crystals </h3>
+</div>
+
+<div class = "container">
+  <div class = "row">
+    <div class = "card">
+  <h3 class = "card-header"> Crystal Game </h3>
+
+
+
+  <div class="randNumContainer">
+               <!--button id="generatebtn" class="btn btn-default btn-lg
+btn-primary">
+               Here is a Random Number:
+             </button-->
+<h1> Randon Number: </h1> 
+
+           </div>
+           <div class="valuesContainer">
+             <h1 id="numberRandom" > 0 </h1>
+               <h1 id="crystalValues">0</h1>
+           </div>
+           <div class="btnContainer container text-center">
+               <button id="crystal1" class="btn btn-default btn-lg
+                btn-primary crystalBtn">
+                <img src = "assets/images/crystal1.png">
+               Crystal 1
+               </button>
+               <button id="crystal2" class="btn btn-default btn-lg
+                btn-primary crystalBtn">
+                <img src = "assets/images/crystal2.png">
+               Crystal 2
+               </button>
+               <button id="crystal3" class="btn btn-default btn-lg
+                btn-primary crystalBtn">
+                <img src = "assets/images/crystal3.png">
+               Crystal 3
+               </button>
+               <button id="crystal4" class="btn btn-default btn-lg
+                btn-primary crystalBtn">
+                <img src = "assets/images/crystal4.png">
+               Crystal 4
+               </button>
+            </div>
+
+
+</div>
+
+  </div>
+
+<script type = "text/javascript" src = "assets/javaScript/javascript.js"></script>
+
+</body>
+</html>
